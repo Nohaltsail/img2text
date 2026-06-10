@@ -1,0 +1,9 @@
+dist/
+samples/
+vendor/ocrs/target/
+rustup-init.exe
+sample-test.png
+.idea/
+release/img2text-portable-windows-x64
+release/img2text-portable-windows-x64/models
+
