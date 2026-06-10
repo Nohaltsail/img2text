@@ -1,0 +1,3 @@
+[submodule "vendor/ocrs"]
+	path = vendor/ocrs
+	url = https://github.com/robertknight/ocrs.git
