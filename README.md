@@ -68,7 +68,7 @@ bash scripts/build-ubuntu.sh
 - `dist/models/text-detection.rten`
 - `dist/models/text-recognition.rten`
 
-## 运行
+## 测试脚本
 
 Windows：
 
