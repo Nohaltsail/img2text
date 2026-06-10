@@ -2,6 +2,20 @@
 
 一个基于 [`robertknight/ocrs`](https://github.com/robertknight/ocrs) 的跨平台图片转文字项目。
 
+## 克隆仓库
+
+**重要**：本项目使用 git submodule 管理 ocrs 依赖，克隆时请使用：
+
+```bash
+# 方式 1：递归克隆（推荐）
+git clone --recursive https://github.com/Nohaltsail/img2text.git
+
+# 方式 2：先克隆后初始化
+git clone https://github.com/Nohaltsail/img2text.git
+cd img2text
+git submodule update --init
+```
+
 ## 项目结构
 
 - `vendor/ocrs/`：上游 `ocrs` 源码（项目核心）
